@@ -12,8 +12,11 @@ custom-img {
   -o-object-fit: cover;
   object-fit: cover;
 }
+.card__header {
+  display: block;
+}
 .custom-card {
-  background-color: rgba(2, 93, 46, 0.567);
+  background-color: rgb(242 238 177);
   border-radius: 1em;
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -38,9 +41,13 @@ custom-img {
   margin-left: 0.5em;
 }
 .custom-tag-blue {
-  background: #56ccf2;
-  background: linear-gradient(180deg, #2f80ed, #56ccf2);
-  color: #fafafa;
+    background: linear-gradient(180deg, #7c5537, #f9ddbb);
+    color: #080808;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3px;
+}
 }
 .tag-brown {
   background: #d1913c;
