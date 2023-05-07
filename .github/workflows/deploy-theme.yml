@@ -7,7 +7,7 @@ jobs:
   deploy:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - uses: TryGhost/action-deploy-theme@v1.6.3
         with:
           api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
