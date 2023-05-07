@@ -13,7 +13,7 @@ custom-img {
   object-fit: cover;
 }
 .custom-card {
-  background-color: rgb(0, 229, 255);
+  background-color: rgb(255, 0, 93);
   border-radius: 1em;
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
   overflow: hidden;
